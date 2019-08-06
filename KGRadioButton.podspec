@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/Gypsyan/KGRadioButton.git', :tag => s.version }
   s.source_files = 'KGRadioButton/*.swift'
 
+  s.swift_version = '5.0'
+  
   s.ios.deployment_target = '8.0'
 
   s.requires_arc = true
